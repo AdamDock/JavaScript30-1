@@ -19,26 +19,49 @@
     }
 
     // Regular
-
+console.log('hello');
     // Interpolated
+    console.log('hello I am a %s string!', '+po')
 
     // Styled
+    console.log('%c I am some great text', 'font-size: 50px; background: red;')
 
     // warning!
+    console.warn('OH NOO');
 
     // Error :|
+    console.error('shit!');
 
     // Info
+    console.info('crocodiles');
 
     // Testing
+    console.assert(1===2, 'that is wrong!');
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    console.log(p);
+    console.dir(p);
 
     // Grouping together
+    dogs.forEach(dog=> {
+      console.group(${dog.name})
+      console.log(`This is ${dog.name}`);
+      console.log()
+      console.groupEnd(`${dog.name});
+    });
 
     // counting
+    
+    console.count('wes')
+    console.count('wes')
+
+    console.count('wes')
+
+    console.count('wes')
+
 
     // timing
 
